@@ -34,10 +34,10 @@ public class Main
 	{
 		Main main = new Main();
 		//main.startUI();	
-		main.heart();
+		//main.heart();
 
 		//main.startUI();	
 		//main.cube();
-		//main.rot();			
+		main.rot();			
 	}
 }
