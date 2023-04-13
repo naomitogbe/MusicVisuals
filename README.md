@@ -14,15 +14,15 @@ Student Number: D22125460, C21333116, D22126855, C21495372
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
-Our assignment is the creation of an audio visualiser using Digital Audio Processing in Java. We mapped lines and shapes to the sound waves and frequency of the song Boy's A Liar Pt.2 by PinkPantheress ft. Ice Spice. We used a variety of visuals in order to capture the mood and energy of the song.
+Our assignment is the creation of an audio visualiser using Digital Audio Processing in Java. We mapped lines and shapes to the sound waves and frequency of the song Boy's A Liar Pt.2 by PinkPantheress ft. Ice Spice. We used a variety of visuals in order to capture the mood and energy of the song. The core theme of our visuals is the use of a pink heart. It represents the lyrics of the song and also the singer PinkPantheress. Orange is used to rperesent Ice Spice.
 
 # Instructions
+hot keys
 
 # How it works
 Ur mom
 # What I am most proud of in the assignment
-The heart
-=======
+
 Zoe: The heart
 
 # Markdown Tutorial
