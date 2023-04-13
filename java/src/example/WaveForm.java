@@ -27,10 +27,10 @@ public class WaveForm
 
             //a stroke is what im having
 
-            //mv.line(i, cy, i, mv.width);
+            mv.line(i, cy, i, mv.width);
             //mv.line(i, cy, cy + cy * mv.getAudioBuffer().get(i), i ); super man S
             //mv.line(i, cy, i, cy + cy * mv.getAudioBuffer().get(i) );
-            mv.line(i, cy, i + mv.width, cy + cy * mv.getAudioBuffer().get(i) );
+            //mv.line(i, cy, i + mv.width, cy + cy * mv.getAudioBuffer().get(i) );
             //mv.line(i, mv.width, i, cy + cy * mv.getAudioBuffer().get(i) ); //cone thing
         }
     }
