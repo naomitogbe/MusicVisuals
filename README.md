@@ -1,16 +1,10 @@
 # Music Visualiser Project
 
-<<<<<<< HEAD
-Name: Shahida
-=======
-Name: Zoe Fabre-Anderson, Shahida Mohammed-Ahmed, Joanne Umeh, Naomi Togbe
->>>>>>> cffc324b8b5886ab690fc2b756faffc524da64a4
 
-<<<<<<< HEAD
+Name: Zoe Fabre-Anderson, Shahida Mohammed-Ahmed, Joanne Umeh, Naomi Togbe
+
+
 Student Number: D22125460, C21333116, D22126855, C21495372
-=======
-Student Number: D22125460, C21333116, D22126855, C21495372 
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment (DONE)
@@ -20,18 +14,17 @@ Student Number: D22125460, C21333116, D22126855, C21495372
 - Check out the WaveForm and AudioBandsVisual for examples of how to call the Processing functions from other classes that are not subclasses of PApplet
 
 # Description of the assignment
-Our assignment is the creation of an audio visualiser using Digital Audio Processing in Java. We mapped lines and shapes to the sound waves and frequency of the song Boy's A Liar Pt.2 by PinkPantheress ft. Ice Spice. We used a variety of visuals in order to capture the mood and energy of the song.
+Our assignment is the creation of an audio visualiser using Digital Audio Processing in Java. We mapped lines and shapes to the sound waves and frequency of the song Boy's A Liar Pt.2 by PinkPantheress ft. Ice Spice. We used a variety of visuals in order to capture the mood and energy of the song. The core theme of our visuals is the use of a pink heart. It represents the lyrics of the song and also the singer PinkPantheress. Orange is used to rperesent Ice Spice.
 
 # Instructions
+hot keys
 
 # How it works
 Ur mom
 # What I am most proud of in the assignment
-<<<<<<< HEAD
-The heart
-=======
+
 Zoe: The heart
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
+
 # Markdown Tutorial
 
 This is *emphasis*
@@ -93,11 +86,9 @@ This is a youtube video:
 
 This is a table of who did what visual/code:
 
-<<<<<<< HEAD
-| Name | Visual/Code|
-=======
-| Name | Visual/Code |
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
+
+# Table of Work
+| Student Name | Visual/Code description |
 |-----------|-----------|
 |Name | Short discription of visual or code |
 |Some stuff | Some more stuff in this column |
