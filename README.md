@@ -21,11 +21,10 @@ Our assignment is the creation of an audio visualiser using Digital Audio Proces
 # How it works
 Ur mom
 # What I am most proud of in the assignment
-<<<<<<< HEAD
 The heart
 =======
 Zoe: The heart
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
+
 # Markdown Tutorial
 
 This is *emphasis*
@@ -87,11 +86,11 @@ This is a youtube video:
 
 This is a table of who did what visual/code:
 
-<<<<<<< HEAD
+
 | Name | Visual/Code|
 =======
 | Name | Visual/Code |
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
+
 |-----------|-----------|
 |Name | Short discription of visual or code |
 |Some stuff | Some more stuff in this column |
