@@ -87,7 +87,8 @@ This is a youtube video:
 This is a table of who did what visual/code:
 
 
-# | Student Name | Visual/Code discription|
+# Table of Who Did What
+| Heading 1 | Heading 2 |
 |-----------|-----------|
 |Name | Short discription of visual or code |
 |Some stuff | Some more stuff in this column |
