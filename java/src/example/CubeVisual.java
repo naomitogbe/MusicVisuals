@@ -6,6 +6,10 @@ public class CubeVisual extends Visual
 {
     boolean twocubes = false;
 
+    String textToMove = "Boy's A Liar";
+    int yPos = 0;
+    int xPos = 0;
+
     public void settings()
     {
         size(800, 800, P3D);
@@ -36,7 +40,8 @@ public class CubeVisual extends Visual
         setFrameSize(256);
 
         startMinim();
-        loadAudio("heroplanet.mp3");
+        loadAudio("boysaliar.mp3");
+
         //getAp().play();
         //startListening(); 
         
@@ -50,12 +55,12 @@ public class CubeVisual extends Visual
         background(0);
         noFill();
         lights();
-        stroke(map(getSmoothedAmplitude(), 0, 1, 0, 255), 255, 255);
+        stroke(map(getSmoothedAmplitude(), 0, 1, 0, 45), 175, 255);
         camera(0, 0, 0, 0, 0, -1, 0, 1, 0);
         translate(0, 0, -250);
                
         float boxSize = 50 + (getAmplitude() * 300);//map(average, 0, 1, 100, 400); 
-        smoothedBoxSize = lerp(smoothedBoxSize, boxSize, 0.2f);        
+        smoothedBoxSize = lerp(smoothedBoxSize, boxSize, 0.5f);        
         if (twocubes)
         {
             pushMatrix();
@@ -63,8 +68,8 @@ public class CubeVisual extends Visual
             rotateY(angle);
             rotateX(angle);
             box(smoothedBoxSize);
-            //strokeWeight(1);
-            //sphere(smoothedBoxSize);
+            strokeWeight(1);//
+            //sphere(smoothedBoxSize);//
             popMatrix();
             pushMatrix();
             translate(100, 0, 0);
@@ -78,13 +83,38 @@ public class CubeVisual extends Visual
         {
             rotateY(angle);
             rotateX(angle);
-            //strokeWeight(1);
-            //sphere(smoothedBoxSize/ 2);            
+            strokeWeight(1);//
+            //sphere(smoothedBoxSize/ 2);   //         
+            beginShape();//r changes size of heart
+                for (float a = 0; a < TWO_PI; a+= 0.01){
+                float r = 1;
+                float x = r * 16 * pow(sin(a), 3);
+                float y = -r * (13 * cos(a) - 5 * cos(2 * a) - 2 * cos(3 * a) - cos(4 * a));
+                vertex(x, y);
+                }
+            endShape();
+            
+            
+            
             strokeWeight(5);
             
             box(smoothedBoxSize);
         }
         angle += 0.01f;
+
+        textAlign(CENTER, CENTER);
+        textSize(32);
+        text(textToMove, xPos, yPos);
+        if (yPos > height){
+            yPos = 0;
+        }
+        else if (xPos > width){
+            xPos = 0;
+        }
+
+
     }
+
     float angle = 0;
+
 } 

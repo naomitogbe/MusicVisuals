@@ -24,12 +24,11 @@ public class Main
         processing.core.PApplet.runSketch( a, new MyVisual());		
 	}
 
-	public void heart()
+	/*public void heart()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Heart());		
-	}
-
+	}*/
 	public static void main(String[] args)
 	{
 		Main main = new Main();
@@ -37,7 +36,7 @@ public class Main
 		//main.heart();
 
 		//main.startUI();	
-		//main.cube();
-		main.rot();			
+		main.cube();
+		//main.rot();			
 	}
 }
