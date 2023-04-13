@@ -1,10 +1,7 @@
 # Music Visualiser Project
 
-<<<<<<< HEAD
-Name: Shahida
-=======
+
 Name: Zoe Fabre-Anderson, Shahida Mohammed-Ahmed, Joanne Umeh, Naomi Togbe
->>>>>>> cffc324b8b5886ab690fc2b756faffc524da64a4
 
 <<<<<<< HEAD
 Student Number: D22125460, C21333116, D22126855, C21495372
