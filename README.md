@@ -3,11 +3,8 @@
 
 Name: Zoe Fabre-Anderson, Shahida Mohammed-Ahmed, Joanne Umeh, Naomi Togbe
 
-<<<<<<< HEAD
+
 Student Number: D22125460, C21333116, D22126855, C21495372
-=======
-Student Number: D22125460, C21333116, D22126855, C21495372 
->>>>>>> 7af03ecc2b3b4835fc68ad8ea914fcd6586f3aed
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment (DONE)
