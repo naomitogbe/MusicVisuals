@@ -88,7 +88,7 @@ This is a table of who did what visual/code:
 
 
 # Table of Who Did What
-| Heading 1 | Heading 2 |
+| Student Name | Visual/Code description |
 |-----------|-----------|
 |Name | Short discription of visual or code |
 |Some stuff | Some more stuff in this column |
