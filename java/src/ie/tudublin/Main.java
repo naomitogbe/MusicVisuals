@@ -1,6 +1,7 @@
 package ie.tudublin;
 
 import c21333116.YASC;
+import c21333116.EndText;
 import example.CubeVisual;
 import example.Heart;
 import example.MyVisual;
@@ -35,6 +36,12 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new YASC());
     }
+	public static void endtext()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new EndText());
+    }
+	
 
 	public static void main(String[] args)
 	{
@@ -44,7 +51,8 @@ public class Main
 
 		//main.startUI();	
 		//main.cube();
-		main.rot();			
-		yasc();
+		//main.rot();			
+		//yasc();
+		main.endtext();
 	}
 }
