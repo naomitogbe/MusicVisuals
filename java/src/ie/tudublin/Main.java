@@ -1,7 +1,12 @@
 package ie.tudublin;
 
 import c21333116.YASC;
+import c21333116.textie;
+
+import javax.swing.JFrame;
+
 import c21333116.EndText;
+import c21333116.Text;
 import example.CubeVisual;
 import example.Heart;
 import example.MyVisual;
@@ -26,12 +31,21 @@ public class Main
         processing.core.PApplet.runSketch( a, new MyVisual());		
 	}
 
+	public void endtext()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new EndText());		
+	}
+
+
+
+
 	/*public void heart()
 	{
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Heart());		
 	}*/
-	public static void main(String[] args)
+	//public static void main(String[] args)
 	{
 		Main main = new Main();
 		//main.startUI();	
@@ -39,12 +53,14 @@ public class Main
 
 		//main.startUI();	
 
-		main.cube();
+		//main.cube();
 		//main.rot();			
 
 		//main.cube();
 		//main.rot();			
 		//yasc();
-		main.endtext();
+		//main.endtext();
+	
 	}
-}
+	
+	}
