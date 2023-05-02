@@ -5,7 +5,9 @@ import c21333116.textie;
 
 import javax.swing.JFrame;
 
-import c21333116.EndText;
+
+import c21333116.Spiral2;
+import example.Spiral;
 import c21333116.Text;
 import example.CubeVisual;
 import example.Heart;
@@ -31,10 +33,11 @@ public class Main
         processing.core.PApplet.runSketch( a, new MyVisual());		
 	}
 
-	public void endtext()
+
+	public void spiral()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new EndText());		
+        processing.core.PApplet.runSketch( a, new Spiral());		
 	}
 
 
@@ -45,7 +48,7 @@ public class Main
 		String[] a = {"MAIN"};
         processing.core.PApplet.runSketch( a, new Heart());		
 	}*/
-	//public static void main(String[] args)
+	public static void main(String[] args)
 	{
 		Main main = new Main();
 		//main.startUI();	
@@ -60,6 +63,7 @@ public class Main
 		//main.rot();			
 		//yasc();
 		//main.endtext();
+		main.spiral();
 	
 	}
 	
