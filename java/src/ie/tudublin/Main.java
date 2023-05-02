@@ -70,7 +70,7 @@ public class Main
 		//main.rot();			
 		//yasc();
 		//main.spiral();
-		main.spiral2();
+		main.spiral();
 	
 	}
 	
