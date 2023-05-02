@@ -40,6 +40,13 @@ public class Main
         processing.core.PApplet.runSketch( a, new Spiral());		
 	}
 
+	public void spiral2()
+	{
+		String[] a = {"MAIN"};
+        processing.core.PApplet.runSketch( a, new Spiral2());		
+	}
+
+
 
 
 
@@ -62,8 +69,8 @@ public class Main
 		//main.cube();
 		//main.rot();			
 		//yasc();
-		//main.endtext();
-		main.spiral();
+		//main.spiral();
+		main.spiral2();
 	
 	}
 	

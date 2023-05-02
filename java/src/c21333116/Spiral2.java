@@ -8,9 +8,9 @@ import ddf.minim.analysis.*;
 public class Spiral2 extends PApplet {
 
 
-Minim minim;
-AudioPlayer player;
-BeatDetect beat;
+//Minim minim;
+//AudioPlayer player;
+//BeatDetect beat;
 
 float angle = 0;
 float[] offsets = new float[6];
